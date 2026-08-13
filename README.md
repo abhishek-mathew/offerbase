@@ -226,4 +226,4 @@ http://localhost:5173
 
 ### 6. Use OfferBase
 
-Open the frontend in your browser, create an account, and log in. Applications can be added manually or updated through recruiting emails after connecting a Gmail account.t
+Open the frontend in your browser, create an account, and log in. Applications can be added manually or updated through recruiting emails after connecting a Gmail account.
