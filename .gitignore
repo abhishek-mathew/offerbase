@@ -1,1 +1,38 @@
 .idea/
+# macOS
+.DS_Store
+
+# IntelliJ
+.idea/
+*.iml
+
+# Java / Maven
+backend/target/
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+
+# Python
+backend/ml/.venv/
+backend/ml/__pycache__/
+*.pyc
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local Spring config
+backend/src/main/resources/application-local.properties
+backend/src/main/resources/application-local.yml
+
+# Logs / temp
+*.log
+test-output.txt
+
+# Local ML / private feedback
+backend/ml/Miniforge3.sh
+backend/ml/data/feedback_emails.csv
+
+

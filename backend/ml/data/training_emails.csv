@@ -1,0 +1,361 @@
+subject,sender,body,label
+Uber interview scheduling,Uber Recruiting <recruiting@uber.com>,We would like to schedule an interview for the Data Scientist position.,INTERVIEW
+Stay Connected for Future Career Opportunities,Airbnb Careers <careers@airbnb.com>,We would like to keep your information on file for future opportunities.,OTHER
+Employment offer,Uber Careers <careers@uber.com>,Congratulations. We would like to offer you a position on our team.,OFFER
+Upcoming career fair,University Career Center <careercenter@example.edu>,Join us for this week's employer networking event.,OTHER
+Update for Software Engineer,no-reply@datadog.com,"Thank you for your interest in Datadog, but we are unable to offer you the position.",REJECTED
+Employment offer,no-reply@google.com,We are excited to invite you to join Google. Please review the attached compensation and benefits information.,OFFER
+Microsoft application confirmation,Microsoft Recruiting <recruiting@microsoft.com>,We have received your application for the Product Analyst position.,APPLIED
+Thank you for applying to Stripe,Stripe Recruiting <recruiting@stripe.com>,Your materials have been received and will be reviewed by our recruiting team.,APPLIED
+Explore careers at Amazon,Amazon Careers <careers@amazon.com>,Learn more about our open roles and engineering teams.,OTHER
+Technical interview invitation,Stripe Talent Acquisition <jobs@stripe.com>,We would like to schedule an interview for the Product Analyst position.,INTERVIEW
+New jobs: Software Engineer Intern and 7 more jobs,Wellfound <team@hi.wellfound.com>,I've found 8 new jobs that might interest you. Ready to Interview Open to offers Closed to Offers.,OTHER
+Phone screen availability,Palantir Recruiting <recruiting@palantir.com>,We enjoyed reviewing your background and would like to continue the process with a conversation.,INTERVIEW
+Weekly job recommendations,LinkedIn Jobs <jobs-noreply@linkedin.com>,Here are new jobs that match your profile.,OTHER
+Thank you for applying to Amazon,Amazon Recruiting <recruiting@amazon.com>,We appreciate your interest in Amazon. Your application is now under review.,APPLIED
+Your offer for Machine Learning Engineer,Palantir Talent Acquisition <jobs@palantir.com>,The team was impressed with you throughout the process and we are excited to welcome you to Palantir.,OFFER
+Your offer for Frontend Engineer,no-reply@adobe.com,We are excited to invite you to join Adobe. Please review the attached compensation and benefits information.,OFFER
+Thank you for applying to Google,Google Recruiting <recruiting@google.com>,Thank you for your interest in Google. Your information has been submitted to the hiring team.,APPLIED
+Datadog interview scheduling,Datadog Careers <careers@datadog.com>,Your application has progressed and we would like to schedule a technical interview.,INTERVIEW
+Thank you for applying to Uber,Uber Talent Acquisition <jobs@uber.com>,We appreciate your interest in Uber. Your application is now under review.,APPLIED
+Interview invitation - Software Engineer,Microsoft Careers <careers@microsoft.com>,Please use the scheduling link below to select a time to meet with our engineering team.,INTERVIEW
+Regarding your application,no-reply@datadog.com,We have chosen to proceed with other candidates.,REJECTED
+Technical interview invitation,Meta Talent Acquisition <jobs@meta.com>,Your candidacy is moving forward and we'd like to arrange a conversation with the hiring manager.,INTERVIEW
+Status of your application,Capital One Recruiting <recruiting@capitalone.com>,We have chosen to proceed with other candidates.,REJECTED
+Offer Letter - Datadog,no-reply@datadog.com,We would be thrilled to have you join our team as a Machine Learning Engineer.,OFFER
+Application update,Adobe Talent Acquisition <jobs@adobe.com>,"We enjoyed learning about your background, but we will not be advancing your candidacy.",REJECTED
+Career Insights Newsletter,Capital One Talent Acquisition <careers@capitalone.com>,Thank you for being part of our talent community. Read employee stories and company news.,OTHER
+Salesforce hiring update,Salesforce Recruiting <recruiting@salesforce.com>,We will not be moving forward with your candidacy at this time.,REJECTED
+Congratulations from Google,Google Talent Acquisition <jobs@google.com>,We are happy to offer you the opportunity to join Google.,OFFER
+Password reset request,GitHub <noreply@github.com>,Use this link to reset your password.,OTHER
+Your application has been submitted,Capital One Recruiting <recruiting@capitalone.com>,We appreciate your interest in Capital One. Your application is now under review.,APPLIED
+Next steps for your application,Palantir Talent Acquisition <jobs@palantir.com>,We enjoyed reviewing your background and would like to continue the process with a conversation.,INTERVIEW
+Status of your application,Airbnb Careers <careers@airbnb.com>,"After careful consideration, you were not selected for the Backend Engineer role.",REJECTED
+Amazon application confirmation,Amazon Recruiting <recruiting@amazon.com>,Your materials have been received and will be reviewed by our recruiting team.,APPLIED
+Bloomberg hiring update,Bloomberg Talent Acquisition <jobs@bloomberg.com>,"While we were impressed by your experience, we have decided to pursue other applicants.",REJECTED
+Application received - Full Stack Engineer,Stripe Careers <careers@stripe.com>,Your materials have been received and will be reviewed by our recruiting team.,APPLIED
+Password reset request,GitHub <noreply@github.com>,Use this link to reset your password.,OTHER
+Next steps for your application,no-reply@netflix.com,We would like to invite you to the next round of interviews.,INTERVIEW
+Employment offer,Microsoft Recruiting <recruiting@microsoft.com>,We are happy to offer you the opportunity to join Microsoft.,OFFER
+New job alert,Indeed <alerts@indeed.com>,Several new software engineering roles were posted today.,OTHER
+Next steps for your application,no-reply@salesforce.com,We would like to invite you to the next round of interviews.,INTERVIEW
+We received your application,Datadog Talent Acquisition <jobs@datadog.com>,We have received your application for the Data Analyst position.,APPLIED
+Offer details,Uber Careers <careers@uber.com>,We are excited to invite you to join Uber. Please review the attached compensation and benefits information.,OFFER
+Palantir application confirmation,Palantir Careers <careers@palantir.com>,We appreciate your interest in Palantir. Your application is now under review.,APPLIED
+New jobs: Software Engineer Intern and 7 more jobs,Wellfound <team@hi.wellfound.com>,I've found 8 new jobs that might interest you. Ready to Interview Open to offers Closed to Offers.,OTHER
+Your Parking Receipt,donotreply@parking.com,Thank you for purchasing parking using our application. Below are your parking session details.,OTHER
+Thank you for applying to Cloudflare,Cloudflare Recruiting <recruiting@cloudflare.com>,We have successfully received your candidate profile for consideration.,APPLIED
+Application received - Full Stack Engineer,Cloudflare Recruiting <recruiting@cloudflare.com>,We appreciate your interest in Cloudflare. Your application is now under review.,APPLIED
+Capital One interview scheduling,no-reply@capitalone.com,We enjoyed reviewing your background and would like to continue the process with a conversation.,INTERVIEW
+Update for Data Scientist,Meta Recruiting <recruiting@meta.com>,We have selected candidates whose qualifications more closely match our current needs.,REJECTED
+Your package has shipped,Amazon <shipment-tracking@amazon.com>,Your package will arrive tomorrow.,OTHER
+A third-party OAuth application was added,GitHub <noreply@github.com>,An OAuth application was recently authorized to access your account.,OTHER
+Weekly job recommendations,LinkedIn Jobs <jobs-noreply@linkedin.com>,Here are new jobs that match your profile.,OTHER
+Congratulations from Palantir,Palantir Talent Acquisition <jobs@palantir.com>,Attached are the details of your employment offer for Systems Engineer.,OFFER
+Congratulations from Stripe,no-reply@stripe.com,We are happy to offer you the opportunity to join Stripe.,OFFER
+Upcoming career fair,University Career Center <careercenter@example.edu>,Join us for this week's employer networking event.,OTHER
+Amazon hiring update,Amazon Careers <careers@amazon.com>,"After careful consideration, you were not selected for the Frontend Engineer role.",REJECTED
+Thank you for applying to Datadog,Datadog Careers <careers@datadog.com>,Your submission for Data Scientist is complete and no further action is required.,APPLIED
+Phone screen availability,Cloudflare Careers <careers@cloudflare.com>,Your application has progressed and we would like to schedule a technical interview.,INTERVIEW
+Your offer for Data Analyst,Palantir Careers <careers@palantir.com>,We are excited to invite you to join Palantir. Please review the attached compensation and benefits information.,OFFER
+Thank you for applying to Uber,Uber Recruiting <recruiting@uber.com>,We appreciate your interest in Uber. Your application is now under review.,APPLIED
+Stripe interview scheduling,Stripe Careers <careers@stripe.com>,Please use the scheduling link below to select a time to meet with our engineering team.,INTERVIEW
+Your Parking Receipt,donotreply@parking.com,Thank you for purchasing parking using our application. Below are your parking session details.,OTHER
+We received your application,Datadog Careers <careers@datadog.com>,Your application for Software Engineering Intern was successfully submitted.,APPLIED
+Password reset request,GitHub <noreply@github.com>,Use this link to reset your password.,OTHER
+We received your application,no-reply@capitalone.com,Your application is currently being reviewed. We will contact you if your experience matches our needs.,APPLIED
+Offer Letter - Meta,Meta Careers <careers@meta.com>,We would be thrilled to have you join our team as a Frontend Engineer.,OFFER
+Technical interview invitation,Amazon Talent Acquisition <jobs@amazon.com>,We would like you to speak with several members of the team as the next step.,INTERVIEW
+We received your application,Stripe Recruiting <recruiting@stripe.com>,Thank you for your interest in Stripe. Your information has been submitted to the hiring team.,APPLIED
+Stripe interview scheduling,Stripe Careers <careers@stripe.com>,Your application has progressed and we would like to schedule a technical interview.,INTERVIEW
+Microsoft application confirmation,no-reply@microsoft.com,We appreciate your interest in Microsoft. Your application is now under review.,APPLIED
+Thank you for applying to Salesforce,Salesforce Careers <careers@salesforce.com>,Your submission for Full Stack Engineer is complete and no further action is required.,APPLIED
+Recruiter recently posted,LinkedIn <updates-noreply@linkedin.com>,A recruiter you follow recently posted about an open engineering role.,OTHER
+Employment offer,Amazon Careers <careers@amazon.com>,Attached are the details of your employment offer for Product Analyst.,OFFER
+Technical interview invitation,Microsoft Recruiting <recruiting@microsoft.com>,We would like you to speak with several members of the team as the next step.,INTERVIEW
+Your financial aid application was received,Student Aid <donotreply@studentaid.gov>,Your application has been received. Review your account for next steps.,OTHER
+Technical interview invitation,no-reply@google.com,Your application has progressed and we would like to schedule a technical interview.,INTERVIEW
+Status of your application,Netflix Talent Acquisition <jobs@netflix.com>,"While we were impressed by your experience, we have decided to pursue other applicants.",REJECTED
+Password reset request,GitHub <noreply@github.com>,Use this link to reset your password.,OTHER
+Upcoming career fair,University Career Center <careercenter@example.edu>,Join us for this week's employer networking event.,OTHER
+Recruiter recently posted,LinkedIn <updates-noreply@linkedin.com>,A recruiter you follow recently posted about an open engineering role.,OTHER
+Google application confirmation,Google Careers <careers@google.com>,We have successfully received your candidate profile for consideration.,APPLIED
+Technical interview invitation,Airbnb Talent Acquisition <jobs@airbnb.com>,Your application has progressed and we would like to schedule a technical interview.,INTERVIEW
+Interview invitation - Product Analyst,Bloomberg Talent Acquisition <jobs@bloomberg.com>,Please send us your availability for a conversation with the hiring team.,INTERVIEW
+Employment offer,Adobe Recruiting <recruiting@adobe.com>,Your compensation package and proposed start date are included for your review.,OFFER
+Thank you for applying to Amazon,no-reply@amazon.com,This message confirms that we received your application for Frontend Engineer.,APPLIED
+Update for Data Analyst,Salesforce Talent Acquisition <jobs@salesforce.com>,"Thank you for your interest in Salesforce, but we are unable to offer you the position.",REJECTED
+Status of your application,Netflix Talent Acquisition <jobs@netflix.com>,We will not be moving forward with your candidacy at this time.,REJECTED
+Status of your application,no-reply@adobe.com,"After careful consideration, you were not selected for the Product Analyst role.",REJECTED
+Bloomberg hiring update,Bloomberg Recruiting <recruiting@bloomberg.com>,We have selected candidates whose qualifications more closely match our current needs.,REJECTED
+A third-party OAuth application was added,GitHub <noreply@github.com>,An OAuth application was recently authorized to access your account.,OTHER
+Offer Letter - Airbnb,Airbnb Careers <careers@airbnb.com>,We are excited to extend an offer for the Frontend Engineer role.,OFFER
+Phone screen availability,Uber Talent Acquisition <jobs@uber.com>,Please select a time for your phone screen regarding the Systems Engineer role.,INTERVIEW
+We Received Your FAFSA Form,U.S. Department of Education <donotreply@studentaid.gov>,Log in to your account to see your status and next steps.,OTHER
+Application received - Data Scientist,no-reply@meta.com,We have received your application for the Data Scientist position.,APPLIED
+Offer details,Bloomberg Talent Acquisition <jobs@bloomberg.com>,We are excited to invite you to join Bloomberg. Please review the attached compensation and benefits information.,OFFER
+Recruiter recently posted,LinkedIn <updates-noreply@linkedin.com>,A recruiter you follow recently posted about an open engineering role.,OTHER
+New jobs: Senior Fullstack Engineer and 6 more jobs,Wellfound <team@hi.wellfound.com>,Here are several new opportunities that match your profile. Ready to Interview and open to offers.,OTHER
+Thank you for applying to Palantir,Palantir Recruiting <recruiting@palantir.com>,We appreciate your interest in Palantir. Your application is now under review.,APPLIED
+We Received Your FAFSA Form,U.S. Department of Education <donotreply@studentaid.gov>,Log in to your account to see your status and next steps.,OTHER
+Application update,Palantir Careers <careers@palantir.com>,"We enjoyed learning about your background, but we will not be advancing your candidacy.",REJECTED
+Recruiter recently posted,LinkedIn <updates-noreply@linkedin.com>,A recruiter you follow recently posted about an open engineering role.,OTHER
+Phone screen availability,Uber Talent Acquisition <jobs@uber.com>,Please use the scheduling link below to select a time to meet with our engineering team.,INTERVIEW
+Capital One hiring update,Capital One Careers <careers@capitalone.com>,"After careful consideration, you were not selected for the Systems Engineer role.",REJECTED
+Thank you for applying to Google,Google Careers <careers@google.com>,This message confirms that we received your application for Software Engineering Intern.,APPLIED
+Interview invitation - Data Analyst,Cloudflare Careers <careers@cloudflare.com>,The hiring manager would like to speak with you about your experience.,INTERVIEW
+Offer Letter - Datadog,Datadog Recruiting <recruiting@datadog.com>,Congratulations. We would like to offer you a position on our team.,OFFER
+Application update,Meta Careers <careers@meta.com>,At this time we are closing your candidacy for the Software Engineer opportunity.,REJECTED
+Interview invitation - Software Engineer,no-reply@microsoft.com,Your application has progressed and we would like to schedule a technical interview.,INTERVIEW
+Password reset request,GitHub <noreply@github.com>,Use this link to reset your password.,OTHER
+Employment offer,Salesforce Careers <careers@salesforce.com>,We are excited to invite you to join Salesforce. Please review the attached compensation and benefits information.,OFFER
+Congratulations from Microsoft,no-reply@microsoft.com,We are excited to extend an offer for the Software Engineer role.,OFFER
+Congratulations from Airbnb,no-reply@airbnb.com,We are excited to invite you to join Airbnb. Please review the attached compensation and benefits information.,OFFER
+Thank you for applying to Datadog,Datadog Careers <careers@datadog.com>,This message confirms that we received your application for Data Analyst.,APPLIED
+Uber interview scheduling,Uber Talent Acquisition <jobs@uber.com>,Please send us your availability for a conversation with the hiring team.,INTERVIEW
+New jobs: Senior Fullstack Engineer and 6 more jobs,Wellfound <team@hi.wellfound.com>,Here are several new opportunities that match your profile. Ready to Interview and open to offers.,OTHER
+Career Insights Newsletter,Uber Talent Acquisition <careers@uber.com>,Thank you for being part of our talent community. Read employee stories and company news.,OTHER
+Next steps for your application,Airbnb Talent Acquisition <jobs@airbnb.com>,Please select a time for your phone screen regarding the Product Analyst role.,INTERVIEW
+Career Insights Newsletter,Meta Talent Acquisition <careers@meta.com>,Thank you for being part of our talent community. Read employee stories and company news.,OTHER
+Congratulations from Adobe,no-reply@adobe.com,Congratulations on completing our interview process. We would like you to join us as a Product Analyst.,OFFER
+Your package has shipped,Amazon <shipment-tracking@amazon.com>,Your package will arrive tomorrow.,OTHER
+Phone screen availability,Adobe Recruiting <recruiting@adobe.com>,Please send us your availability for a conversation with the hiring team.,INTERVIEW
+Congratulations from Bloomberg,no-reply@bloomberg.com,We would be thrilled to have you join our team as a Software Engineer.,OFFER
+Stay Connected for Future Career Opportunities,Palantir Careers <careers@palantir.com>,We would like to keep your information on file for future opportunities.,OTHER
+Offer details,Airbnb Recruiting <recruiting@airbnb.com>,The team was impressed with you throughout the process and we are excited to welcome you to Airbnb.,OFFER
+Weekly job recommendations,LinkedIn Jobs <jobs-noreply@linkedin.com>,Here are new jobs that match your profile.,OTHER
+Technical interview invitation,Microsoft Careers <careers@microsoft.com>,Please select a time for your phone screen regarding the Data Analyst role.,INTERVIEW
+Offer details,Cloudflare Recruiting <recruiting@cloudflare.com>,Your compensation package and proposed start date are included for your review.,OFFER
+Datadog hiring update,no-reply@datadog.com,We have selected candidates whose qualifications more closely match our current needs.,REJECTED
+Update for Backend Engineer,Google Talent Acquisition <jobs@google.com>,"Although your background is impressive, we have decided to continue the process with other candidates.",REJECTED
+Interview advice from the Glassdoor community,Glassdoor Community <noreply@glassdoor.com>,Read what other candidates say about interview experiences at popular companies.,OTHER
+Application received - Backend Engineer,Meta Talent Acquisition <jobs@meta.com>,Thank you for your interest in Meta. Your information has been submitted to the hiring team.,APPLIED
+Interview advice from the Glassdoor community,Glassdoor Community <noreply@glassdoor.com>,Read what other candidates say about interview experiences at popular companies.,OTHER
+Regarding your application,Bloomberg Talent Acquisition <jobs@bloomberg.com>,"Although your background is impressive, we have decided to continue the process with other candidates.",REJECTED
+Technical interview invitation,Microsoft Talent Acquisition <jobs@microsoft.com>,Please send us your availability for a conversation with the hiring team.,INTERVIEW
+Your Parking Receipt,donotreply@parking.com,Thank you for purchasing parking using our application. Below are your parking session details.,OTHER
+Upcoming career fair,University Career Center <careercenter@example.edu>,Join us for this week's employer networking event.,OTHER
+Salesforce application confirmation,no-reply@salesforce.com,Thank you for your interest in Salesforce. Your information has been submitted to the hiring team.,APPLIED
+Technical interview invitation,Microsoft Recruiting <recruiting@microsoft.com>,Please use the scheduling link below to select a time to meet with our engineering team.,INTERVIEW
+Application received - Product Analyst,Meta Talent Acquisition <jobs@meta.com>,We have received your application for the Product Analyst position.,APPLIED
+A third-party OAuth application was added,GitHub <noreply@github.com>,An OAuth application was recently authorized to access your account.,OTHER
+Application received - Data Analyst,Netflix Talent Acquisition <jobs@netflix.com>,Your materials have been received and will be reviewed by our recruiting team.,APPLIED
+New jobs: Software Engineer Intern and 7 more jobs,Wellfound <team@hi.wellfound.com>,I've found 8 new jobs that might interest you. Ready to Interview Open to offers Closed to Offers.,OTHER
+Password reset request,GitHub <noreply@github.com>,Use this link to reset your password.,OTHER
+Phone screen availability,Palantir Talent Acquisition <jobs@palantir.com>,Please use the scheduling link below to select a time to meet with our engineering team.,INTERVIEW
+I countered a job offer today,Glassdoor Community <noreply@glassdoor.com>,"Explore real conversations from workers discussing job offers, interviews and compensation.",OTHER
+Phone screen availability,Airbnb Talent Acquisition <jobs@airbnb.com>,We enjoyed reviewing your background and would like to continue the process with a conversation.,INTERVIEW
+Interview invitation - Data Scientist,Airbnb Careers <careers@airbnb.com>,The hiring manager would like to speak with you about your experience.,INTERVIEW
+Welcome to our talent community,Bloomberg Talent Network <talent@bloomberg.com>,Thanks for joining our talent network. We will share future opportunities.,OTHER
+Congratulations from Airbnb,Airbnb Careers <careers@airbnb.com>,The team was impressed with you throughout the process and we are excited to welcome you to Airbnb.,OFFER
+Employment offer,Salesforce Talent Acquisition <jobs@salesforce.com>,We are excited to extend an offer for the Software Engineering Intern role.,OFFER
+Recruiter recently posted,LinkedIn <updates-noreply@linkedin.com>,A recruiter you follow recently posted about an open engineering role.,OTHER
+Your Parking Receipt,donotreply@parking.com,Thank you for purchasing parking using our application. Below are your parking session details.,OTHER
+Next steps for your application,Google Talent Acquisition <jobs@google.com>,We enjoyed reviewing your background and would like to continue the process with a conversation.,INTERVIEW
+Employment offer,Airbnb Careers <careers@airbnb.com>,We are happy to offer you the opportunity to join Airbnb.,OFFER
+Update for Data Analyst,Netflix Talent Acquisition <jobs@netflix.com>,"We enjoyed learning about your background, but we will not be advancing your candidacy.",REJECTED
+Congratulations from Uber,Uber Careers <careers@uber.com>,Your compensation package and proposed start date are included for your review.,OFFER
+Welcome to our talent community,Amazon Talent Network <talent@amazon.com>,Thanks for joining our talent network. We will share future opportunities.,OTHER
+Your Parking Receipt,donotreply@parking.com,Thank you for purchasing parking using our application. Below are your parking session details.,OTHER
+Capital One hiring update,Capital One Recruiting <recruiting@capitalone.com>,At this time we are closing your candidacy for the Data Scientist opportunity.,REJECTED
+Offer details,Palantir Recruiting <recruiting@palantir.com>,The team was impressed with you throughout the process and we are excited to welcome you to Palantir.,OFFER
+Your Parking Receipt,donotreply@parking.com,Thank you for purchasing parking using our application. Below are your parking session details.,OTHER
+Status of your application,Adobe Careers <careers@adobe.com>,At this time we are closing your candidacy for the Backend Engineer opportunity.,REJECTED
+Your offer for Software Engineering Intern,Datadog Recruiting <recruiting@datadog.com>,Congratulations on completing our interview process. We would like you to join us as a Software Engineering Intern.,OFFER
+Your offer for Full Stack Engineer,no-reply@google.com,We are pleased to offer you the Full Stack Engineer position at Google.,OFFER
+Cloudflare hiring update,Cloudflare Careers <careers@cloudflare.com>,"After careful consideration, you were not selected for the Machine Learning Engineer role.",REJECTED
+Explore careers at Uber,Uber Careers <careers@uber.com>,Learn more about our open roles and engineering teams.,OTHER
+We received your application,no-reply@google.com,Your application for Frontend Engineer was successfully submitted.,APPLIED
+Password reset request,GitHub <noreply@github.com>,Use this link to reset your password.,OTHER
+Congratulations from Capital One,Capital One Careers <careers@capitalone.com>,We are excited to invite you to join Capital One. Please review the attached compensation and benefits information.,OFFER
+Recruiter recently posted,LinkedIn <updates-noreply@linkedin.com>,A recruiter you follow recently posted about an open engineering role.,OTHER
+Career Insights Newsletter,Datadog Talent Acquisition <careers@datadog.com>,Thank you for being part of our talent community. Read employee stories and company news.,OTHER
+Employment offer,no-reply@uber.com,Congratulations. We would like to offer you a position on our team.,OFFER
+Application update,no-reply@datadog.com,"Unfortunately, we have decided not to move forward with your application.",REJECTED
+Upcoming career fair,University Career Center <careercenter@example.edu>,Join us for this week's employer networking event.,OTHER
+Adobe interview scheduling,Adobe Talent Acquisition <jobs@adobe.com>,Your application has progressed and we would like to schedule a technical interview.,INTERVIEW
+Your package has shipped,Amazon <shipment-tracking@amazon.com>,Your package will arrive tomorrow.,OTHER
+Congratulations from Palantir,Palantir Talent Acquisition <jobs@palantir.com>,We are excited to invite you to join Palantir. Please review the attached compensation and benefits information.,OFFER
+New jobs: Senior Fullstack Engineer and 6 more jobs,Wellfound <team@hi.wellfound.com>,Here are several new opportunities that match your profile. Ready to Interview and open to offers.,OTHER
+Stay Connected for Future Career Opportunities,Netflix Careers <careers@netflix.com>,We would like to keep your information on file for future opportunities.,OTHER
+Application update,Uber Talent Acquisition <jobs@uber.com>,We have selected candidates whose qualifications more closely match our current needs.,REJECTED
+We Received Your FAFSA Form,U.S. Department of Education <donotreply@studentaid.gov>,Log in to your account to see your status and next steps.,OTHER
+Password reset request,GitHub <noreply@github.com>,Use this link to reset your password.,OTHER
+Palantir interview scheduling,Palantir Talent Acquisition <jobs@palantir.com>,Please send us your availability for a conversation with the hiring team.,INTERVIEW
+Application update,Netflix Careers <careers@netflix.com>,"Although your background is impressive, we have decided to continue the process with other candidates.",REJECTED
+Welcome to our talent community,Meta Talent Network <talent@meta.com>,Thanks for joining our talent network. We will share future opportunities.,OTHER
+Technical interview invitation,Microsoft Careers <careers@microsoft.com>,Your application has progressed and we would like to schedule a technical interview.,INTERVIEW
+Weekly job recommendations,LinkedIn Jobs <jobs-noreply@linkedin.com>,Here are new jobs that match your profile.,OTHER
+A third-party OAuth application was added,GitHub <noreply@github.com>,An OAuth application was recently authorized to access your account.,OTHER
+We received your application,Amazon Talent Acquisition <jobs@amazon.com>,We appreciate your interest in Amazon. Your application is now under review.,APPLIED
+Employment offer,Capital One Recruiting <recruiting@capitalone.com>,We are pleased to offer you the Data Analyst position at Capital One.,OFFER
+Technical interview invitation,Amazon Talent Acquisition <jobs@amazon.com>,The hiring manager would like to speak with you about your experience.,INTERVIEW
+New jobs: Senior Fullstack Engineer and 6 more jobs,Wellfound <team@hi.wellfound.com>,Here are several new opportunities that match your profile. Ready to Interview and open to offers.,OTHER
+Offer Letter - Bloomberg,Bloomberg Talent Acquisition <jobs@bloomberg.com>,Attached are the details of your employment offer for Software Engineer.,OFFER
+New job alert,Indeed <alerts@indeed.com>,Several new software engineering roles were posted today.,OTHER
+Phone screen availability,Amazon Recruiting <recruiting@amazon.com>,The hiring manager would like to speak with you about your experience.,INTERVIEW
+Offer Letter - Uber,Uber Recruiting <recruiting@uber.com>,The team was impressed with you throughout the process and we are excited to welcome you to Uber.,OFFER
+Interview invitation - Machine Learning Engineer,Meta Talent Acquisition <jobs@meta.com>,Your application has progressed and we would like to schedule a technical interview.,INTERVIEW
+Offer details,Adobe Careers <careers@adobe.com>,We are excited to invite you to join Adobe. Please review the attached compensation and benefits information.,OFFER
+Your application has been submitted,no-reply@google.com,This message confirms that we received your application for Software Engineer.,APPLIED
+Explore careers at Uber,Uber Careers <careers@uber.com>,Learn more about our open roles and engineering teams.,OTHER
+Netflix application confirmation,Netflix Recruiting <recruiting@netflix.com>,We appreciate your interest in Netflix. Your application is now under review.,APPLIED
+A third-party OAuth application was added,GitHub <noreply@github.com>,An OAuth application was recently authorized to access your account.,OTHER
+Application update,no-reply@palantir.com,We will not be moving forward with your candidacy at this time.,REJECTED
+Next steps for your application,no-reply@datadog.com,We would like to schedule an interview for the Backend Engineer position.,INTERVIEW
+Your package has shipped,Amazon <shipment-tracking@amazon.com>,Your package will arrive tomorrow.,OTHER
+We Received Your FAFSA Form,U.S. Department of Education <donotreply@studentaid.gov>,Log in to your account to see your status and next steps.,OTHER
+Your offer for Software Engineering Intern,no-reply@datadog.com,We are excited to extend an offer for the Software Engineering Intern role.,OFFER
+Interview advice from the Glassdoor community,Glassdoor Community <noreply@glassdoor.com>,Read what other candidates say about interview experiences at popular companies.,OTHER
+We Received Your FAFSA Form,U.S. Department of Education <donotreply@studentaid.gov>,Log in to your account to see your status and next steps.,OTHER
+Meta interview scheduling,Meta Recruiting <recruiting@meta.com>,We would like to invite you to the next round of interviews.,INTERVIEW
+We Received Your FAFSA Form,U.S. Department of Education <donotreply@studentaid.gov>,Log in to your account to see your status and next steps.,OTHER
+Update for Data Scientist,Salesforce Careers <careers@salesforce.com>,We have selected candidates whose qualifications more closely match our current needs.,REJECTED
+Congratulations from Datadog,no-reply@datadog.com,Attached are the details of your employment offer for Software Engineering Intern.,OFFER
+Update for Full Stack Engineer,Google Careers <careers@google.com>,"Thank you for your interest in Google, but we are unable to offer you the position.",REJECTED
+Interview invitation - Systems Engineer,no-reply@palantir.com,Please use the scheduling link below to select a time to meet with our engineering team.,INTERVIEW
+Employment offer,no-reply@palantir.com,We would be thrilled to have you join our team as a Data Analyst.,OFFER
+We Received Your FAFSA Form,U.S. Department of Education <donotreply@studentaid.gov>,Log in to your account to see your status and next steps.,OTHER
+Status of your application,Datadog Recruiting <recruiting@datadog.com>,We will not be moving forward with your candidacy at this time.,REJECTED
+Upcoming career fair,University Career Center <careercenter@example.edu>,Join us for this week's employer networking event.,OTHER
+Your financial aid application was received,Student Aid <donotreply@studentaid.gov>,Your application has been received. Review your account for next steps.,OTHER
+Explore careers at Microsoft,Microsoft Careers <careers@microsoft.com>,Learn more about our open roles and engineering teams.,OTHER
+Upcoming career fair,University Career Center <careercenter@example.edu>,Join us for this week's employer networking event.,OTHER
+New jobs: Software Engineer Intern and 7 more jobs,Wellfound <team@hi.wellfound.com>,I've found 8 new jobs that might interest you. Ready to Interview Open to offers Closed to Offers.,OTHER
+We Received Your FAFSA Form,U.S. Department of Education <donotreply@studentaid.gov>,Log in to your account to see your status and next steps.,OTHER
+Your Parking Receipt,donotreply@parking.com,Thank you for purchasing parking using our application. Below are your parking session details.,OTHER
+Application received - Machine Learning Engineer,no-reply@salesforce.com,Your submission for Machine Learning Engineer is complete and no further action is required.,APPLIED
+Datadog application confirmation,Datadog Recruiting <recruiting@datadog.com>,We have received your application for the Software Engineering Intern position.,APPLIED
+Phone screen availability,Capital One Recruiting <recruiting@capitalone.com>,Please send us your availability for a conversation with the hiring team.,INTERVIEW
+Regarding your application,no-reply@amazon.com,"Although your background is impressive, we have decided to continue the process with other candidates.",REJECTED
+Password reset request,GitHub <noreply@github.com>,Use this link to reset your password.,OTHER
+Phone screen availability,Palantir Careers <careers@palantir.com>,Your candidacy is moving forward and we'd like to arrange a conversation with the hiring manager.,INTERVIEW
+Your application has been submitted,no-reply@bloomberg.com,Your materials have been received and will be reviewed by our recruiting team.,APPLIED
+Status of your application,Airbnb Careers <careers@airbnb.com>,We have selected candidates whose qualifications more closely match our current needs.,REJECTED
+Employment offer,Salesforce Careers <careers@salesforce.com>,The team was impressed with you throughout the process and we are excited to welcome you to Salesforce.,OFFER
+Update for Backend Engineer,Capital One Talent Acquisition <jobs@capitalone.com>,"After careful consideration, you were not selected for the Backend Engineer role.",REJECTED
+Stripe hiring update,Stripe Talent Acquisition <jobs@stripe.com>,"After careful consideration, you were not selected for the Data Scientist role.",REJECTED
+Regarding your application,Adobe Talent Acquisition <jobs@adobe.com>,We have selected candidates whose qualifications more closely match our current needs.,REJECTED
+Explore careers at Bloomberg,Bloomberg Careers <careers@bloomberg.com>,Learn more about our open roles and engineering teams.,OTHER
+Update for Full Stack Engineer,Netflix Talent Acquisition <jobs@netflix.com>,"We enjoyed learning about your background, but we will not be advancing your candidacy.",REJECTED
+Update for Frontend Engineer,Bloomberg Talent Acquisition <jobs@bloomberg.com>,We have chosen to proceed with other candidates.,REJECTED
+Your application has been submitted,no-reply@palantir.com,We appreciate your interest in Palantir. Your application is now under review.,APPLIED
+New jobs: Senior Fullstack Engineer and 6 more jobs,Wellfound <team@hi.wellfound.com>,Here are several new opportunities that match your profile. Ready to Interview and open to offers.,OTHER
+Congratulations from Salesforce,no-reply@salesforce.com,Your compensation package and proposed start date are included for your review.,OFFER
+Your application has been submitted,Cloudflare Careers <careers@cloudflare.com>,Your application for Software Engineering Intern was successfully submitted.,APPLIED
+Your offer for Machine Learning Engineer,no-reply@meta.com,We would be thrilled to have you join our team as a Machine Learning Engineer.,OFFER
+Interview advice from the Glassdoor community,Glassdoor Community <noreply@glassdoor.com>,Read what other candidates say about interview experiences at popular companies.,OTHER
+Uber application confirmation,no-reply@uber.com,Your application for Machine Learning Engineer was successfully submitted.,APPLIED
+Your Parking Receipt,donotreply@parking.com,Thank you for purchasing parking using our application. Below are your parking session details.,OTHER
+Status of your application,Datadog Careers <careers@datadog.com>,We have selected candidates whose qualifications more closely match our current needs.,REJECTED
+Technical interview invitation,Google Talent Acquisition <jobs@google.com>,Please select a time for your phone screen regarding the Frontend Engineer role.,INTERVIEW
+A third-party OAuth application was added,GitHub <noreply@github.com>,An OAuth application was recently authorized to access your account.,OTHER
+Next steps for your application,Datadog Recruiting <recruiting@datadog.com>,Your application has progressed and we would like to schedule a technical interview.,INTERVIEW
+Update for Data Scientist,Bloomberg Recruiting <recruiting@bloomberg.com>,"Although your background is impressive, we have decided to continue the process with other candidates.",REJECTED
+Your Parking Receipt,donotreply@parking.com,Thank you for purchasing parking using our application. Below are your parking session details.,OTHER
+Regarding your application,Cloudflare Careers <careers@cloudflare.com>,We have selected candidates whose qualifications more closely match our current needs.,REJECTED
+We Received Your FAFSA Form,U.S. Department of Education <donotreply@studentaid.gov>,Log in to your account to see your status and next steps.,OTHER
+We received your application,Adobe Careers <careers@adobe.com>,We have received your application for the Frontend Engineer position.,APPLIED
+Stay Connected for Future Career Opportunities,Salesforce Careers <careers@salesforce.com>,We would like to keep your information on file for future opportunities.,OTHER
+Your financial aid application was received,Student Aid <donotreply@studentaid.gov>,Your application has been received. Review your account for next steps.,OTHER
+Offer Letter - Salesforce,Salesforce Recruiting <recruiting@salesforce.com>,Your compensation package and proposed start date are included for your review.,OFFER
+Your application has been submitted,no-reply@capitalone.com,This message confirms that we received your application for Data Scientist.,APPLIED
+A third-party OAuth application was added,GitHub <noreply@github.com>,An OAuth application was recently authorized to access your account.,OTHER
+Thank you for applying to Google,no-reply@google.com,Your materials have been received and will be reviewed by our recruiting team.,APPLIED
+Status of your application,Salesforce Recruiting <recruiting@salesforce.com>,We have selected candidates whose qualifications more closely match our current needs.,REJECTED
+Your financial aid application was received,Student Aid <donotreply@studentaid.gov>,Your application has been received. Review your account for next steps.,OTHER
+Palantir interview scheduling,Palantir Recruiting <recruiting@palantir.com>,Please select a time for your phone screen regarding the Data Analyst role.,INTERVIEW
+Career Insights Newsletter,Uber Talent Acquisition <careers@uber.com>,Thank you for being part of our talent community. Read employee stories and company news.,OTHER
+Your application has been submitted,Amazon Talent Acquisition <jobs@amazon.com>,Thank you for your interest in Amazon. Your information has been submitted to the hiring team.,APPLIED
+Welcome to our talent community,Google Talent Network <talent@google.com>,Thanks for joining our talent network. We will share future opportunities.,OTHER
+Your package has shipped,Amazon <shipment-tracking@amazon.com>,Your package will arrive tomorrow.,OTHER
+New jobs: Software Engineer Intern and 7 more jobs,Wellfound <team@hi.wellfound.com>,I've found 8 new jobs that might interest you. Ready to Interview Open to offers Closed to Offers.,OTHER
+Update for Data Analyst,no-reply@datadog.com,"While we were impressed by your experience, we have decided to pursue other applicants.",REJECTED
+Application update,Datadog Talent Acquisition <jobs@datadog.com>,We have selected candidates whose qualifications more closely match our current needs.,REJECTED
+Regarding your application,no-reply@palantir.com,At this time we are closing your candidacy for the Backend Engineer opportunity.,REJECTED
+Offer details,Capital One Talent Acquisition <jobs@capitalone.com>,Congratulations. We would like to offer you a position on our team.,OFFER
+Your application has been submitted,Google Recruiting <recruiting@google.com>,Thank you for your interest in Google. Your information has been submitted to the hiring team.,APPLIED
+Cloudflare hiring update,no-reply@cloudflare.com,We will not be moving forward with your candidacy at this time.,REJECTED
+We received your application,Airbnb Recruiting <recruiting@airbnb.com>,Your submission for Machine Learning Engineer is complete and no further action is required.,APPLIED
+Status of your application,Uber Talent Acquisition <jobs@uber.com>,"Unfortunately, we have decided not to move forward with your application.",REJECTED
+Palantir application confirmation,Palantir Talent Acquisition <jobs@palantir.com>,We appreciate your interest in Palantir. Your application is now under review.,APPLIED
+Update for Full Stack Engineer,no-reply@airbnb.com,We will not be moving forward with your candidacy at this time.,REJECTED
+Adobe application confirmation,Adobe Careers <careers@adobe.com>,Your application is currently being reviewed. We will contact you if your experience matches our needs.,APPLIED
+Status of your application,Salesforce Talent Acquisition <jobs@salesforce.com>,At this time we are closing your candidacy for the Software Engineer opportunity.,REJECTED
+Upcoming career fair,University Career Center <careercenter@example.edu>,Join us for this week's employer networking event.,OTHER
+Interview invitation - Data Scientist,Netflix Careers <careers@netflix.com>,We enjoyed reviewing your background and would like to continue the process with a conversation.,INTERVIEW
+New jobs: Software Engineer Intern and 7 more jobs,Wellfound <team@hi.wellfound.com>,I've found 8 new jobs that might interest you. Ready to Interview Open to offers Closed to Offers.,OTHER
+Application update,Netflix Recruiting <recruiting@netflix.com>,At this time we are closing your candidacy for the Machine Learning Engineer opportunity.,REJECTED
+Phone screen availability,Adobe Talent Acquisition <jobs@adobe.com>,We would like to invite you to the next round of interviews.,INTERVIEW
+Next steps for your application,Amazon Talent Acquisition <jobs@amazon.com>,We would like to schedule an interview for the Full Stack Engineer position.,INTERVIEW
+Password reset request,GitHub <noreply@github.com>,Use this link to reset your password.,OTHER
+I countered a job offer today,Glassdoor Community <noreply@glassdoor.com>,"Explore real conversations from workers discussing job offers, interviews and compensation.",OTHER
+Your package has shipped,Amazon <shipment-tracking@amazon.com>,Your package will arrive tomorrow.,OTHER
+Phone screen availability,Salesforce Recruiting <recruiting@salesforce.com>,We enjoyed reviewing your background and would like to continue the process with a conversation.,INTERVIEW
+Offer details,Bloomberg Careers <careers@bloomberg.com>,Congratulations on completing our interview process. We would like you to join us as a Data Scientist.,OFFER
+Congratulations from Cloudflare,Cloudflare Recruiting <recruiting@cloudflare.com>,Congratulations on completing our interview process. We would like you to join us as a Systems Engineer.,OFFER
+Employment offer,Bloomberg Careers <careers@bloomberg.com>,We are pleased to offer you the Software Engineer position at Bloomberg.,OFFER
+Cloudflare interview scheduling,Cloudflare Recruiting <recruiting@cloudflare.com>,Please send us your availability for a conversation with the hiring team.,INTERVIEW
+Technical interview invitation,Google Careers <careers@google.com>,Please use the scheduling link below to select a time to meet with our engineering team.,INTERVIEW
+Your offer for Data Analyst,Stripe Talent Acquisition <jobs@stripe.com>,We are happy to offer you the opportunity to join Stripe.,OFFER
+Technical interview invitation,no-reply@salesforce.com,Your candidacy is moving forward and we'd like to arrange a conversation with the hiring manager.,INTERVIEW
+Password reset request,GitHub <noreply@github.com>,Use this link to reset your password.,OTHER
+We received your application,Airbnb Careers <careers@airbnb.com>,Your application is currently being reviewed. We will contact you if your experience matches our needs.,APPLIED
+Stripe hiring update,Stripe Recruiting <recruiting@stripe.com>,"Thank you for your interest in Stripe, but we are unable to offer you the position.",REJECTED
+Phone screen availability,no-reply@datadog.com,Your application has progressed and we would like to schedule a technical interview.,INTERVIEW
+Application received - Software Engineering Intern,Datadog Careers <careers@datadog.com>,Your submission for Software Engineering Intern is complete and no further action is required.,APPLIED
+Congratulations from Airbnb,Airbnb Talent Acquisition <jobs@airbnb.com>,We are excited to extend an offer for the Machine Learning Engineer role.,OFFER
+Weekly job recommendations,LinkedIn Jobs <jobs-noreply@linkedin.com>,Here are new jobs that match your profile.,OTHER
+Explore careers at Netflix,Netflix Careers <careers@netflix.com>,Learn more about our open roles and engineering teams.,OTHER
+Password reset request,GitHub <noreply@github.com>,Use this link to reset your password.,OTHER
+Offer details,no-reply@bloomberg.com,We would be thrilled to have you join our team as a Machine Learning Engineer.,OFFER
+Thank you for applying to Meta,Meta Recruiting <recruiting@meta.com>,Your materials have been received and will be reviewed by our recruiting team.,APPLIED
+Regarding your application,Uber Careers <careers@uber.com>,"After careful consideration, you were not selected for the Backend Engineer role.",REJECTED
+Employment offer,Amazon Careers <careers@amazon.com>,We are happy to offer you the opportunity to join Amazon.,OFFER
+Application received - Product Analyst,Cloudflare Recruiting <recruiting@cloudflare.com>,Your application is currently being reviewed. We will contact you if your experience matches our needs.,APPLIED
+We Received Your FAFSA Form,U.S. Department of Education <donotreply@studentaid.gov>,Log in to your account to see your status and next steps.,OTHER
+Interview advice from the Glassdoor community,Glassdoor Community <noreply@glassdoor.com>,Read what other candidates say about interview experiences at popular companies.,OTHER
+Welcome to our talent community,Airbnb Talent Network <talent@airbnb.com>,Thanks for joining our talent network. We will share future opportunities.,OTHER
+Netflix hiring update,no-reply@netflix.com,"After careful consideration, you were not selected for the Full Stack Engineer role.",REJECTED
+Recruiter recently posted,LinkedIn <updates-noreply@linkedin.com>,A recruiter you follow recently posted about an open engineering role.,OTHER
+Your financial aid application was received,Student Aid <donotreply@studentaid.gov>,Your application has been received. Review your account for next steps.,OTHER
+New jobs: Software Engineer Intern and 7 more jobs,Wellfound <team@hi.wellfound.com>,I've found 8 new jobs that might interest you. Ready to Interview Open to offers Closed to Offers.,OTHER
+Application update,Airbnb Recruiting <recruiting@airbnb.com>,"While we were impressed by your experience, we have decided to pursue other applicants.",REJECTED
+Status of your application,Airbnb Talent Acquisition <jobs@airbnb.com>,We have chosen to proceed with other candidates.,REJECTED
+Recruiter recently posted,LinkedIn <updates-noreply@linkedin.com>,A recruiter you follow recently posted about an open engineering role.,OTHER
+Application received - Software Engineer,Amazon Recruiting <recruiting@amazon.com>,We have received your application for the Software Engineer position.,APPLIED
+Your application has been submitted,Netflix Recruiting <recruiting@netflix.com>,Thank you for applying for the Product Analyst role at Netflix.,APPLIED
+Recruiter recently posted,LinkedIn <updates-noreply@linkedin.com>,A recruiter you follow recently posted about an open engineering role.,OTHER
+Upcoming career fair,University Career Center <careercenter@example.edu>,Join us for this week's employer networking event.,OTHER
+Capital One interview scheduling,Capital One Recruiting <recruiting@capitalone.com>,The hiring manager would like to speak with you about your experience.,INTERVIEW
+Your application has been submitted,Uber Talent Acquisition <jobs@uber.com>,Thank you for applying for the Product Analyst role at Uber.,APPLIED
+Application received - Machine Learning Engineer,Uber Careers <careers@uber.com>,Thank you for your interest in Uber. Your information has been submitted to the hiring team.,APPLIED
+Weekly job recommendations,LinkedIn Jobs <jobs-noreply@linkedin.com>,Here are new jobs that match your profile.,OTHER
+Recruiter recently posted,LinkedIn <updates-noreply@linkedin.com>,A recruiter you follow recently posted about an open engineering role.,OTHER
+Employment offer,Meta Recruiting <recruiting@meta.com>,Congratulations on completing our interview process. We would like you to join us as a Software Engineering Intern.,OFFER
+Offer Letter - Microsoft,Microsoft Careers <careers@microsoft.com>,We are happy to offer you the opportunity to join Microsoft.,OFFER
+Amazon hiring update,Amazon Talent Acquisition <jobs@amazon.com>,"After careful consideration, you were not selected for the Data Analyst role.",REJECTED
+Interview invitation - Frontend Engineer,Google Talent Acquisition <jobs@google.com>,We would like you to speak with several members of the team as the next step.,INTERVIEW
+Congratulations from Google,no-reply@google.com,We are excited to extend an offer for the Full Stack Engineer role.,OFFER
+Update for Frontend Engineer,Uber Talent Acquisition <jobs@uber.com>,We will not be moving forward with your candidacy at this time.,REJECTED
+Update for Machine Learning Engineer,Uber Recruiting <recruiting@uber.com>,At this time we are closing your candidacy for the Machine Learning Engineer opportunity.,REJECTED
+Status of your application,no-reply@stripe.com,"Unfortunately, we have decided not to move forward with your application.",REJECTED
+Technical interview invitation,no-reply@salesforce.com,We would like to invite you to the next round of interviews.,INTERVIEW
+A third-party OAuth application was added,GitHub <noreply@github.com>,An OAuth application was recently authorized to access your account.,OTHER
+Palantir application confirmation,Palantir Recruiting <recruiting@palantir.com>,Thank you for applying for the Data Scientist role at Palantir.,APPLIED
+Application received - Frontend Engineer,no-reply@airbnb.com,Your submission for Frontend Engineer is complete and no further action is required.,APPLIED
+A third-party OAuth application was added,GitHub <noreply@github.com>,An OAuth application was recently authorized to access your account.,OTHER
+Salesforce interview scheduling,Salesforce Careers <careers@salesforce.com>,Please select a time for your phone screen regarding the Frontend Engineer role.,INTERVIEW
+We received your application,Uber Careers <careers@uber.com>,This message confirms that we received your application for Machine Learning Engineer.,APPLIED
+Status of your application,no-reply@adobe.com,"While we were impressed by your experience, we have decided to pursue other applicants.",REJECTED
+Your Parking Receipt,donotreply@parking.com,Thank you for purchasing parking using our application. Below are your parking session details.,OTHER
+Upcoming career fair,University Career Center <careercenter@example.edu>,Join us for this week's employer networking event.,OTHER
+Adobe interview scheduling,Adobe Recruiting <recruiting@adobe.com>,Please send us your availability for a conversation with the hiring team.,INTERVIEW
+Recruiter recently posted,LinkedIn <updates-noreply@linkedin.com>,A recruiter you follow recently posted about an open engineering role.,OTHER
+We received your application,Google Recruiting <recruiting@google.com>,Your application is currently being reviewed. We will contact you if your experience matches our needs.,APPLIED
+Congratulations from Amazon,no-reply@amazon.com,We are happy to offer you the opportunity to join Amazon.,OFFER
+Your offer for Systems Engineer,Netflix Talent Acquisition <jobs@netflix.com>,We are pleased to offer you the Systems Engineer position at Netflix.,OFFER
+Congratulations from Datadog,Datadog Careers <careers@datadog.com>,We would be thrilled to have you join our team as a Frontend Engineer.,OFFER
+Congratulations from Amazon,Amazon Recruiting <recruiting@amazon.com>,Your compensation package and proposed start date are included for your review.,OFFER
+Next steps for your application,Cloudflare Talent Acquisition <jobs@cloudflare.com>,We would like to schedule an interview for the Systems Engineer position.,INTERVIEW
+Thank you for applying to Google,Google Careers <careers@google.com>,Your application is currently being reviewed. We will contact you if your experience matches our needs.,APPLIED

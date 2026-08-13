@@ -1,0 +1,30 @@
+subject,sender,body,label
+"Moving forward","Capital One Talent <talent@capitalone.com>","We enjoyed reviewing your background and would like to continue the process. Please share your availability for a conversation with the team.","INTERVIEW"
+"Your candidacy","Google Recruiting <jobs@google.com>","We'd like to invite you to speak with members of our engineering organization about the role and your experience.","INTERVIEW"
+"Let's connect","Stripe Talent <talent@stripe.com>","The hiring manager would like to meet with you. Please choose a convenient time using the scheduling link below.","INTERVIEW"
+"Assessment next steps","Amazon University Recruiting <university@amazon.com>","Your application has progressed. The next stage will include a technical conversation with one of our engineers.","INTERVIEW"
+"Regarding your application","Meta Recruiting <recruiting@meta.com>","Your background caught our attention and we'd like to discuss the opportunity with you further.","INTERVIEW"
+
+"Application confirmation","Palantir Recruiting <recruiting@palantir.com>","Your materials have been successfully received and are now available to our hiring team for review.","APPLIED"
+"Submission complete","Adobe Careers <jobs@adobe.com>","Your submission for the Backend Engineer opening is complete. We will contact you if your background aligns with our needs.","APPLIED"
+"We've received your information","Salesforce Talent <talent@salesforce.com>","Your candidate profile and application materials have been received for consideration.","APPLIED"
+"Application status","Bloomberg Recruiting <recruiting@bloomberg.com>","This confirms your submission for the Software Engineer position. No further action is required at this time.","APPLIED"
+"Thank you for your interest","Datadog Careers <careers@datadoghq.com>","Your information has been successfully submitted to our recruiting team for review.","APPLIED"
+
+"An update from our team","Microsoft Recruiting <recruiting@microsoft.com>","While we were impressed by your background, we've elected to pursue applicants whose experience more closely aligns with our current needs.","REJECTED"
+"Regarding the Software Engineer role","Cloudflare Talent <talent@cloudflare.com>","After reviewing your application, we have decided to continue the process with other applicants.","REJECTED"
+"Recruiting update","Airbnb Recruiting <recruiting@airbnb.com>","At this time, we will be closing your candidacy for this opportunity. We appreciate the time you invested in the process.","REJECTED"
+"Application decision","Uber Careers <jobs@uber.com>","We appreciate your interest in joining us. We have selected candidates whose qualifications more closely fit this opening.","REJECTED"
+"Status update","Netflix Recruiting <recruiting@netflix.com>","Although we enjoyed learning about your experience, we won't be advancing your candidacy to the next stage.","REJECTED"
+
+"Great news","Stripe Recruiting <recruiting@stripe.com>","We'd be thrilled to have you join the team. Attached you'll find compensation, start date, and employment details for your review.","OFFER"
+"Next chapter","Capital One Talent <talent@capitalone.com>","Congratulations. The team has completed the process and we'd like you to join us as a Software Engineer.","OFFER"
+"Welcome to the team","Microsoft Talent Acquisition <jobs@microsoft.com>","We're excited to invite you to join Microsoft. Please review the attached compensation and benefits information.","OFFER"
+"Final details","Palantir Recruiting <recruiting@palantir.com>","We're excited to move forward with you. Your compensation package and proposed start date are included below.","OFFER"
+"Congratulations","Adobe Recruiting <jobs@adobe.com>","The team was impressed throughout the process and we'd like you to join Adobe as a Backend Engineer.","OFFER"
+
+"Engineering roles you may like","LinkedIn Jobs <jobs-noreply@linkedin.com>","Based on your profile, here are several open engineering jobs you may want to apply to.","OTHER"
+"Come meet our recruiters","University Career Center <careers@example.edu>","Several employers will attend Thursday's technology career fair. Registration is now open.","OTHER"
+"Join our talent community","Google Careers <careers@google.com>","Sign up to hear about future opportunities and events from our recruiting teams.","OTHER"
+"Reminder: complete your profile","Indeed <alerts@indeed.com>","Complete your candidate profile to receive better job recommendations.","OTHER"
+"New engineering openings","Amazon Jobs <jobs@amazon.com>","Explore newly posted software development roles across our teams.","OTHER"
