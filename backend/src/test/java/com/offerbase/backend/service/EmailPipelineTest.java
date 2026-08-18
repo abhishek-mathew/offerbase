@@ -1,4 +1,5 @@
 package com.offerbase.backend.service;
+import com.offerbase.backend.security.EmailApplicationMatcher;
 
 import com.offerbase.backend.entity.JobApplication;
 import com.offerbase.backend.entity.ApplicationStatus;

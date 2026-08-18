@@ -8,6 +8,8 @@ import lombok.Setter;
 
 import java.time.LocalDate;
 import java.util.UUID;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "job_applications")
@@ -41,6 +43,13 @@ public class JobApplication {
 
     @Column(length = 2000)
     private String notes;
+
+    @OneToMany(
+            mappedBy = "application",
+            cascade = CascadeType.ALL,
+            orphanRemoval = true
+    )
+    private List<ApplicationEvent> events = new ArrayList<>();
 
     @ManyToOne(optional = false)
     @JoinColumn(name = "user_id", nullable = false)

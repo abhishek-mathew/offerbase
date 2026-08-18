@@ -2,6 +2,9 @@ package com.offerbase.backend.service;
 
 import org.springframework.stereotype.Service;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 @Service
 public class EmailJobExtractor {
 
@@ -14,7 +17,8 @@ public class EmailJobExtractor {
         String company =
                 extractCompany(
                         subject,
-                        from
+                        from,
+                        snippet
                 );
 
         String position =
@@ -24,27 +28,72 @@ public class EmailJobExtractor {
                 );
 
         return new ExtractionResult(
-                company,
-                position
+                cleanCompany(company),
+                cleanPosition(position)
         );
     }
 
-
     private String extractCompany(
             String subject,
-            String from
+            String from,
+            String snippet
     ) {
 
         /*
-         * First try to get a readable sender name.
+         * Best source: explicit language in the email body.
          *
          * Example:
+         * "Software Engineering Intern position at The Nuclear Company"
+         */
+
+        String combined =
+                ((subject == null ? "" : subject)
+                        + " "
+                        + (snippet == null ? "" : snippet));
+
+        Pattern atCompanyPattern =
+                Pattern.compile(
+                        "(?i)\\bposition\\s+at\\s+(.+?)(?:[\\.,]|\\s+we\\b|\\s+and\\b|$)"
+                );
+
+        Matcher atCompanyMatcher =
+                atCompanyPattern.matcher(combined);
+
+        if (atCompanyMatcher.find()) {
+            return atCompanyMatcher
+                    .group(1)
+                    .trim();
+        }
+
+
+        /*
+         * Subject examples:
          *
-         * Capital One Careers <careers@capitalone.com>
+         * "Thank you for applying to The Nuclear Company"
+         */
+
+        if (subject != null) {
+
+            Pattern applyingToPattern =
+                    Pattern.compile(
+                            "(?i)(?:applying|application)\\s+(?:to|at)\\s+(.+)$"
+                    );
+
+            Matcher matcher =
+                    applyingToPattern.matcher(subject);
+
+            if (matcher.find()) {
+                return matcher
+                        .group(1)
+                        .trim();
+            }
+        }
+
+
+        /*
+         * Readable sender name.
          *
-         * becomes:
-         *
-         * Capital One Careers
+         * "Capital One Recruiting Team <...>"
          */
 
         if (
@@ -65,24 +114,7 @@ public class EmailJobExtractor {
                     );
 
             senderName =
-                    senderName
-                            .replaceAll(
-                                    "(?i)careers",
-                                    ""
-                            )
-                            .replaceAll(
-                                    "(?i)recruiting",
-                                    ""
-                            )
-                            .replaceAll(
-                                    "(?i)recruitment",
-                                    ""
-                            )
-                            .replaceAll(
-                                    "(?i)talent acquisition",
-                                    ""
-                            )
-                            .trim();
+                    cleanCompany(senderName);
 
             if (!senderName.isBlank()) {
                 return senderName;
@@ -91,13 +123,7 @@ public class EmailJobExtractor {
 
 
         /*
-         * Fall back to the email domain.
-         *
-         * recruiting@capitalone.com
-         *
-         * becomes:
-         *
-         * capitalone
+         * Fall back to domain.
          */
 
         if (
@@ -140,10 +166,7 @@ public class EmailJobExtractor {
 
 
         /*
-         * Last resort:
-         * try the beginning of the subject.
-         *
-         * "Capital One - Interview Invitation"
+         * Last resort: beginning of subject.
          */
 
         if (
@@ -159,74 +182,178 @@ public class EmailJobExtractor {
                     .trim();
         }
 
-
         return "";
     }
-
 
     private String extractPosition(
             String subject,
             String snippet
     ) {
 
-        if (subject == null) {
-            return "";
-        }
-
+        String combined =
+                ((subject == null ? "" : subject)
+                        + " "
+                        + (snippet == null ? "" : snippet));
 
         /*
          * Example:
          *
-         * "Software Engineering Intern - Application Update"
-         *
-         * becomes:
-         *
-         * "Software Engineering Intern"
+         * "Thank you for your interest in the Summer 2027
+         * Software Engineering Intern position at The Nuclear Company"
          */
 
-        String[] separators = {
-                " - ",
-                " | ",
-                ": "
-        };
+        Pattern interestPattern =
+                Pattern.compile(
+                        "(?i)interest\\s+in\\s+(?:the\\s+)?(.+?)\\s+position\\s+at\\b"
+                );
+
+        Matcher interestMatcher =
+                interestPattern.matcher(combined);
+
+        if (interestMatcher.find()) {
+            return interestMatcher
+                    .group(1)
+                    .trim();
+        }
 
 
-        for (String separator : separators) {
+        /*
+         * "applied for the Software Engineer position"
+         */
 
-            if (subject.contains(separator)) {
+        Pattern appliedForPattern =
+                Pattern.compile(
+                        "(?i)applied\\s+for\\s+(?:the\\s+)?(.+?)\\s+position\\b"
+                );
 
-                String[] parts =
-                        subject.split(
-                                java.util.regex.Pattern.quote(
-                                        separator
-                                )
-                        );
+        Matcher appliedForMatcher =
+                appliedForPattern.matcher(combined);
 
-                for (String part : parts) {
+        if (appliedForMatcher.find()) {
+            return appliedForMatcher
+                    .group(1)
+                    .trim();
+        }
 
-                    String lower =
-                            part.toLowerCase();
 
-                    if (
-                            lower.contains("engineer") ||
-                                    lower.contains("developer") ||
-                                    lower.contains("analyst") ||
-                                    lower.contains("intern") ||
-                                    lower.contains("scientist") ||
-                                    lower.contains("manager") ||
-                                    lower.contains("associate")
-                    ) {
+        /*
+         * "application for Software Engineer"
+         */
 
-                        return part.trim();
+        Pattern applicationForPattern =
+                Pattern.compile(
+                        "(?i)application\\s+for\\s+(?:the\\s+)?(.+?)(?:[\\.,]|$)"
+                );
+
+        Matcher applicationForMatcher =
+                applicationForPattern.matcher(combined);
+
+        if (applicationForMatcher.find()) {
+            return applicationForMatcher
+                    .group(1)
+                    .trim();
+        }
+
+
+        /*
+         * Existing subject fallback.
+         */
+
+        if (subject != null) {
+
+            String[] separators = {
+                    " - ",
+                    " | ",
+                    ": "
+            };
+
+            for (String separator : separators) {
+
+                if (subject.contains(separator)) {
+
+                    String[] parts =
+                            subject.split(
+                                    Pattern.quote(
+                                            separator
+                                    )
+                            );
+
+                    for (String part : parts) {
+
+                        String lower =
+                                part.toLowerCase();
+
+                        if (
+                                lower.contains("engineer") ||
+                                        lower.contains("developer") ||
+                                        lower.contains("analyst") ||
+                                        lower.contains("intern") ||
+                                        lower.contains("scientist") ||
+                                        lower.contains("manager") ||
+                                        lower.contains("associate")
+                        ) {
+
+                            return part.trim();
+                        }
                     }
                 }
             }
         }
 
-
         return "";
     }
 
+    private String cleanCompany(
+            String company
+    ) {
+
+        if (company == null) {
+            return "";
+        }
+
+        return company
+                .replaceAll(
+                        "(?i)\\b(hiring|recruiting|recruitment|talent acquisition|talent|careers)\\s+team\\b",
+                        ""
+                )
+                .replaceAll(
+                        "(?i)\\b(talent acquisition|hiring|recruiting|recruitment|careers)\\b",
+                        ""
+                )
+                .replaceAll(
+                        "(?i)[-_]?team$",
+                        ""
+                )
+                .replaceAll(
+                        "\\s{2,}",
+                        " "
+                )
+                .replaceAll(
+                        "^[\\s\\-_|]+|[\\s\\-_|]+$",
+                        ""
+                )
+                .trim();
+    }
+
+    private String cleanPosition(
+            String position
+    ) {
+
+        if (position == null) {
+            return "";
+        }
+
+        return position
+                .replaceAll(
+                        "(?i)^the\\s+",
+                        ""
+                )
+                .replaceAll(
+                        "\\s{2,}",
+                        " "
+                )
+                .trim();
+    }
 
     public record ExtractionResult(
             String company,

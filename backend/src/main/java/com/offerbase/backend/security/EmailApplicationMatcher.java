@@ -1,5 +1,4 @@
-package com.offerbase.backend.service;
-
+package com.offerbase.backend.security;
 import com.offerbase.backend.entity.JobApplication;
 import org.springframework.stereotype.Service;
 

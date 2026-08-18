@@ -3,6 +3,7 @@ package com.offerbase.backend.service;
 import com.offerbase.backend.entity.GmailConnection;
 import com.offerbase.backend.entity.User;
 import com.offerbase.backend.repository.GmailConnectionRepository;
+import com.offerbase.backend.security.EmailApplicationMatcher;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
@@ -10,6 +11,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.reactive.function.client.WebClient;
+import org.springframework.web.reactive.function.client.WebClientResponseException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -79,131 +81,82 @@ public class GmailService {
                         connection.getRefreshToken()
                 );
 
-        boolean initialSync =
-                connection.getLastHistoryId() == null;
+        final int MAX_CANDIDATES = 200;
 
         List<Map<?, ?>> messageSummaries =
                 new ArrayList<>();
 
-        if (initialSync) {
+        String pageToken = null;
 
-            final int MAX_CANDIDATES = 150;
-            String pageToken = null;
+        do {
 
-            do {
+            String currentPageToken = pageToken;
 
-                String currentPageToken =
-                        pageToken;
+            Map<?, ?> listResponse =
+                    webClient
+                            .get()
+                            .uri(uriBuilder -> {
 
-                Map<?, ?> listResponse =
-                        webClient
-                                .get()
-                                .uri(uriBuilder -> {
+                                var builder =
+                                        uriBuilder
+                                                .scheme("https")
+                                                .host("gmail.googleapis.com")
+                                                .path("/gmail/v1/users/me/messages")
+                                                .queryParam("maxResults", 100)
+                                                .queryParam(
+                                                        "q",
+                                                        "newer_than:30d"
+                                                );
 
-                                    var builder =
-                                            uriBuilder
-                                                    .scheme("https")
-                                                    .host("gmail.googleapis.com")
-                                                    .path(
-                                                            "/gmail/v1/users/me/messages"
-                                                    )
-                                                    .queryParam(
-                                                            "maxResults",
-                                                            100
-                                                    )
-                                                    .queryParam(
-                                                            "q",
-                                                            "newer_than:1y (application OR interview OR recruiter OR recruiting OR offer OR \"thank you for applying\" OR \"thank you for your interest\" OR unfortunately OR careers)"
-                                                    );
+                                if (currentPageToken != null) {
+                                    builder.queryParam(
+                                            "pageToken",
+                                            currentPageToken
+                                    );
+                                }
 
-                                    if (currentPageToken != null) {
-                                        builder.queryParam(
-                                                "pageToken",
-                                                currentPageToken
-                                        );
-                                    }
+                                return builder.build();
+                            })
+                            .headers(headers ->
+                                    headers.setBearerAuth(accessToken)
+                            )
+                            .retrieve()
+                            .bodyToMono(Map.class)
+                            .block();
 
-                                    return builder.build();
-                                })
-                                .headers(headers ->
-                                        headers.setBearerAuth(
-                                                accessToken
-                                        )
-                                )
-                                .retrieve()
-                                .bodyToMono(Map.class)
-                                .block();
+            if (
+                    listResponse == null ||
+                            listResponse.get("messages") == null
+            ) {
+                break;
+            }
 
-                if (
-                        listResponse == null ||
-                                listResponse.get("messages") == null
-                ) {
+            List<?> pageMessages =
+                    (List<?>) listResponse.get("messages");
+
+            for (Object item : pageMessages) {
+
+                if (messageSummaries.size() >= MAX_CANDIDATES) {
                     break;
                 }
 
-                List<?> pageMessages =
-                        (List<?>) listResponse.get(
-                                "messages"
-                        );
-
-                for (Object item : pageMessages) {
-
-                    if (
-                            messageSummaries.size()
-                                    >= MAX_CANDIDATES
-                    ) {
-                        break;
-                    }
-
-                    messageSummaries.add(
-                            (Map<?, ?>) item
-                    );
-                }
-
-                Object nextPageToken =
-                        listResponse.get(
-                                "nextPageToken"
-                        );
-
-                pageToken =
-                        nextPageToken == null
-                                ? null
-                                : String.valueOf(
-                                nextPageToken
-                        );
-
-            } while (
-                    pageToken != null &&
-                            messageSummaries.size()
-                                    < MAX_CANDIDATES
-            );
-
-        } else {
-
-            try {
-
-                messageSummaries.addAll(
-                        getNewMessageSummaries(
-                                accessToken,
-                                connection.getLastHistoryId()
-                        )
-                );
-
-            } catch (Exception exception) {
-
-                connection.setLastHistoryId(
-                        null
-                );
-
-                gmailConnectionRepository.save(
-                        connection
-                );
-
-                return getRecentEmails(
-                        user
+                messageSummaries.add(
+                        (Map<?, ?>) item
                 );
             }
-        }
+
+            Object nextPageToken =
+                    listResponse.get("nextPageToken");
+
+            pageToken =
+                    nextPageToken == null
+                            ? null
+                            : String.valueOf(nextPageToken);
+
+        } while (
+                pageToken != null &&
+                        messageSummaries.size() < MAX_CANDIDATES
+        );
 
         List<Map<String, Object>> results =
                 new ArrayList<>();
@@ -226,46 +179,36 @@ public class GmailService {
                 continue;
             }
 
-            Map<?, ?> message =
-                    webClient
-                            .get()
-                            .uri(uriBuilder ->
-                                    uriBuilder
-                                            .scheme("https")
-                                            .host(
-                                                    "gmail.googleapis.com"
-                                            )
-                                            .path(
-                                                    "/gmail/v1/users/me/messages/{id}"
-                                            )
-                                            .queryParam(
-                                                    "format",
-                                                    "metadata"
-                                            )
-                                            .queryParam(
-                                                    "metadataHeaders",
-                                                    "Subject"
-                                            )
-                                            .queryParam(
-                                                    "metadataHeaders",
-                                                    "From"
-                                            )
-                                            .queryParam(
-                                                    "metadataHeaders",
-                                                    "Date"
-                                            )
-                                            .build(
-                                                    messageId
-                                            )
-                            )
-                            .headers(headers ->
-                                    headers.setBearerAuth(
-                                            accessToken
-                                    )
-                            )
-                            .retrieve()
-                            .bodyToMono(Map.class)
-                            .block();
+            Map<?, ?> message;
+
+            try {
+                message =
+                        webClient
+                                .get()
+                                .uri(uriBuilder ->
+                                        uriBuilder
+                                                .scheme("https")
+                                                .host("gmail.googleapis.com")
+                                                .path("/gmail/v1/users/me/messages/{id}")
+                                                .queryParam("format", "metadata")
+                                                .queryParam("metadataHeaders", "Subject")
+                                                .queryParam("metadataHeaders", "From")
+                                                .queryParam("metadataHeaders", "Date")
+                                                .build(messageId)
+                                )
+                                .headers(headers ->
+                                        headers.setBearerAuth(accessToken)
+                                )
+                                .retrieve()
+                                .bodyToMono(Map.class)
+                                .block();
+
+            } catch (org.springframework.web.reactive.function.client.WebClientResponseException.NotFound e) {
+                System.out.println(
+                        "Skipping unavailable Gmail message: " + messageId
+                );
+                continue;
+            }
 
             if (message == null) {
                 continue;
@@ -515,19 +458,6 @@ public class GmailService {
             results.add(result);
         }
 
-        String currentHistoryId =
-                getCurrentHistoryId(
-                        accessToken
-                );
-
-        connection.setLastHistoryId(
-                currentHistoryId
-        );
-
-        gmailConnectionRepository.save(
-                connection
-        );
-
         return results;
     }
 
@@ -714,19 +644,33 @@ public class GmailService {
                 "refresh_token"
         );
 
-        Map<?, ?> response =
-                webClient
-                        .post()
-                        .uri(
-                                "https://oauth2.googleapis.com/token"
-                        )
-                        .contentType(
-                                MediaType.APPLICATION_FORM_URLENCODED
-                        )
-                        .bodyValue(form)
-                        .retrieve()
-                        .bodyToMono(Map.class)
-                        .block();
+        Map<?, ?> response;
+
+        try {
+
+            response =
+                    webClient
+                            .post()
+                            .uri(
+                                    "https://oauth2.googleapis.com/token"
+                            )
+                            .contentType(
+                                    MediaType.APPLICATION_FORM_URLENCODED
+                            )
+                            .bodyValue(form)
+                            .retrieve()
+                            .bodyToMono(Map.class)
+                            .block();
+
+        } catch (WebClientResponseException exception) {
+
+            System.out.println(
+                    "GOOGLE TOKEN ERROR: "
+                            + exception.getResponseBodyAsString()
+            );
+
+            throw exception;
+        }
 
         if (
                 response == null ||
